@@ -1,11 +1,8 @@
 import React from 'react';
+import '../styles/components/App.css';
 
-const App = () => {
-  return (
-    <div>
-      hola
-    </div>
-  );
-};
+
+
+const App = () => <h1>hola</h1>;
 
 export default App;

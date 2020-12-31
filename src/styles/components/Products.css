@@ -10,6 +10,7 @@
   border-radius: 5px;
   margin: 0 0 20px 0;
   position: relative;
+  padding-bottom: 40px;
 }
 .Products-item-info {
   padding: 10px;
@@ -27,11 +28,16 @@
   font-size: 14px;
   font-weight: 300;
 }
-.Products-item img {
-  width: 100%;
+.Products-item figure {
   height: 200px;
   border-radius: 5px 5px 0 0;
   object-fit: contain;
+}
+.Products-item figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
 }
 .Products-item button {
   background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
@@ -43,6 +49,8 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 300;
+  position: absolute;
+  bottom: 0;
 }
 .Products-item button:hover {
   background-color: rgba(39,44,49,0.06);
